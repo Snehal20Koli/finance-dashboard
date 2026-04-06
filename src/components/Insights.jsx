@@ -30,7 +30,6 @@ export default function Insights({ transactions }) {
       style={{
         marginTop: "40px",
         padding: "20px",
-        background: "#fff",
         borderRadius: "10px",
         boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
       }}

@@ -34,16 +34,16 @@ body.dark .header h1{
 }
 
 body.dark .ins p{
-    color: rgb(10, 55, 112);
+    color: lightblue;
 }
 body.dark .ins h3{
-    color: rgb(10, 55, 112);
+    color: white;
 }
 body.dark .chart h3{
-    color: rgb(10, 55, 112);
+    color: white;
 }
 body.dark .chart1 h3{
-    color: rgb(10, 55, 112);
+    color: white;
 }
 
 /* Role text */
@@ -96,6 +96,9 @@ body.dark .chart ResponsiveContainer{
   padding: 20px;
   border-radius: 16px;
   margin: 30px 0;
+}
+.ins {
+    background: white;
 }
 
 .insights p {
@@ -230,14 +233,18 @@ button:hover {
   background: #b91c1c;
 }
 
-.chart {
-  padding: 20px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
 
+.chart1 {
+  background: white;
+}
+body.dark .chart1{
+    background-color: #1f2937;
+}
 body.dark .chart {
   background: #1f2937;
   box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+body.dark .ins{
+    background: #1f2937;
 }
