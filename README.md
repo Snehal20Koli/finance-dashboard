@@ -32,13 +32,13 @@ A responsive finance dashboard with:
 ## 📸 Preview
 
 ### 🏠 Dashboard Overview
-![Dashboard](./src/assets/SS1.jpg)
-![Dashboard](./src/assets/SS2(light).jpg)
+![Dashboard](./src/assets/LightOne.JPG)
+![Dashboard](./src/assets/LightTwo.JPG)
 
 
 ### 🌙 Dark Mode
-![Dark Mode](./src/assets/SS3(DarkMode).jpg)
-![Dark Mode](./src/assets/SS4(Dark Mode).jpg)
+![Dark Mode](./src/assets/DarkModeOne.JPG)
+![Dark Mode](./src/assets/DarkModeTwo.JPG)
 
 ### Admin Role
 ![Admin Role](./src/assets/AdminRoleEdit.JPG)
