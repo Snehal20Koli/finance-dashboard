@@ -233,6 +233,9 @@ button:hover {
   background: #b91c1c;
 }
 
+.chart{
+    background: white;
+}
 
 .chart1 {
   background: white;
@@ -247,4 +250,19 @@ body.dark .chart {
 
 body.dark .ins{
     background: #1f2937;
+}
+
+.table-container input,
+.table-container select {
+  background: white;
+  border: 1px solid #ccc;
+  color: #111;
+}
+
+/* Dark mode */
+body.dark .table-container input,
+body.dark .table-container select {
+  background: #020617;
+  border: 1px solid #334155;
+  color: #e5e7eb;
 }
