@@ -1,0 +1,243 @@
+/* Global */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #f5f7fb, #eef1f7);
+  color: #1f2937;
+}
+
+/* Dark Mode */
+body.dark {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+/* Dashboard Layout */
+.dashboard {
+  padding: 20px 30px;
+}
+
+/* Header */
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #374796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.dark .header h1{
+    font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #9caaf1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.dark .ins p{
+    color: rgb(10, 55, 112);
+}
+body.dark .ins h3{
+    color: rgb(10, 55, 112);
+}
+body.dark .chart h3{
+    color: rgb(10, 55, 112);
+}
+body.dark .chart1 h3{
+    color: rgb(10, 55, 112);
+}
+
+/* Role text */
+.role-text {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.role-text span {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+/* Cards */
+.summary-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Charts */
+.chart-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+body.dark .chart-box {
+  background: #1f2937;
+}
+
+body.dark .chart ResponsiveContainer{
+    background: #1f2937;
+}
+
+/* Insights */
+.insights {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 30px 0;
+}
+
+.insights p {
+  color: #9fbefc;
+}
+
+body.dark .insights p {
+  color: #98b6e9;
+}
+
+.insights strong {
+  color: #6366f1;
+}
+
+/* Table */
+.table-container {
+  margin-top: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+body.dark .table-container {
+  background: #1f2937;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+  color: white;
+}
+
+th {
+  padding: 14px;
+  text-align: left;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+body.dark td {
+  border-bottom: 1px solid #374151;
+}
+
+/* Row styles */
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+body.dark tbody tr:nth-child(even) {
+  background: #111827;
+}
+
+tbody tr:hover {
+  background: #eef2ff;
+}
+
+body.dark tbody tr:hover {
+  background: #1e293b;
+}
+
+/* Amount colors */
+td.income {
+  color: #16a34a;
+}
+
+td.expense {
+  color: #dc2626;
+}
+
+/* Dark softer colors */
+body.dark td.income {
+  color: #22c55e;
+}
+
+body.dark td.expense {
+  color: #f87171;
+}
+
+/* Badge */
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.badge.income {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge.expense {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+body.dark .badge.income {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ade80;
+}
+
+body.dark .badge.expense {
+  background: rgba(248, 113, 113, 0.2);
+  color: #f87171;
+}
+
+/* Buttons */
+button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+.chart {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+body.dark .chart {
+  background: #1f2937;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
